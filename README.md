@@ -1,6 +1,6 @@
-# 📙 The Poets Codex
+# 📙 The Poets Octavo
 
-This repository contains [The Poets Codex](https://musman-uk.github.io/the-poets-codex/) - a website aiming to bring together a curated set of esteemed poets.
+This repository contains [The Poets Octavo](https://musman-uk.github.io/the-poets-octavo/) - a website aiming to bring together a curated set of esteemed poets.
 
 ---
 
@@ -41,4 +41,3 @@ Version ``1.0.0` – Published
 
 <sub>© Mohammed Usman</sub>
 
-<sub>All rights reserved. No commercial use, redistribution, or derivatives.</sub>

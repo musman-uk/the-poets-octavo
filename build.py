@@ -165,7 +165,7 @@ def copy_assets():
 
 
 def main():
-    print("Building The Poets Codex...")
+    print("Building The Poets Octavo...")
 
     poets_data = build_poet_pages()
 
