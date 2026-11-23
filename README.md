@@ -16,6 +16,7 @@ A short summary of what each part of the project contains:
 - `RECORD.md` – consolidated technical record of design style, development process, milestones, and roadmap  
 - `README.md` – high‑level overview of the project, including purpose, structure, and development approach  
 - `build.py` – Python build script that compiles Markdown and templates into static HTML  
+- `bundle_code.py` – Python utility script that packages source files and Markdown content into a single text snapshot  
 - `requirements.txt` – Python dependencies required for the build process
 
 ---
@@ -28,16 +29,15 @@ A simplified view of how the website is being developed:
 |--------------|------------------------|--------------------------------------------------------|
 | Write        | `source/`              | Markdown pages and templates are authored and updated |
 | Build        | `build.py`             | Python script applies templates and assembles pages   |
-| Automate     | `.github/workflows/`   | Workflow triggers the build script upon manual dispatch     |
+| Automate     | `.github/workflows/`   | Workflow triggers the build and code snapshot upon manual dispatch |
 | Deploy       | `docs/`                | Static HTML output used for GitHub Pages deployment   |
 
 ---
 
 ## Status
 
-Version ``1.0.0` – Published  
+Version `1.0.0` – Published  
 
 ---
 
 <sub>© Mohammed Usman</sub>
-
